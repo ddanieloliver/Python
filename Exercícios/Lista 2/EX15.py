@@ -1,0 +1,1 @@
+'''Nome Gamer... Não vou fazer'''

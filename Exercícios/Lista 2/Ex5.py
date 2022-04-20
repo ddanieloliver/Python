@@ -18,4 +18,3 @@ if 0 <= nota1 <= 10 and 0 <= nota2 <= 10 and 0 <= nota3 <= 10:
         print ('Aprovrado!')
 else:
     print('Alguma nota está inválida')
-

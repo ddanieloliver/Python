@@ -18,14 +18,30 @@ Superior a R$1750,00 R$ 250,00
 salarioBase = int(input("Insira o salário base: "))
 dep = int(input('Insira o número de dependentes: '))
 salarioBruto = salarioBase + (dep * 120)
-salarioLiquido = salarioBruto - IR
+
 
 if 1000 <= salarioBruto <= 2500:
-  print(f"Imposto de renda igual a 10% de {salarioBruto} = {salarioBruto *(10/100)}")
+  imposto = salarioBruto* 10/100
+  print(f"Imposto de renda igual a 10% de {salarioBruto} = {imposto}")
 elif salarioBruto < 1000:
+  imposto = 0
   print('Insento.')
 elif salarioBruto > 2500:
-  print(f"Imposto de renda igual a 20% de {salarioBruto} = {salarioBruto *(20/100)}")
+  imposto = salarioBruto*20/100
+  print(f"Imposto de renda igual a 20% de {salarioBruto} = {imposto}")
 else:
   print("Algo deu errado")
 
+salarioLiquido = salarioBruto - imposto
+
+if salarioLiquido <= 1750:
+  gratificacao = 500
+  print("Gratificação de 500 Reais")
+elif salarioLiquido > 1750:
+  gratificacao = 250
+  print("Gratificaçaõ de 250 reais")
+else:
+  print("Algo deu errado...")
+
+salarioAReceber = salarioLiquido + gratificacao
+print(f"O salário que você vai receber é R$ {salarioAReceber}")
