@@ -7,12 +7,11 @@ for i in range(x):
     m = m + n
     i =+ 1
 print(m)
-
-
 m = 0
 for i in range(x):
     n = int(input("Insira o valor de n: "))
     if  n > m:
         m = n
     i =+ 1
+
 print(m)

@@ -10,6 +10,7 @@ print("( 2 ) Subtração")
 print("( 3 ) Multiplicação")
 print("( 4 ) Divisão")
 
+
 operacao = float(input( "Insira a Operação: "))
 if operacao == 1:
     for i in range(11):
@@ -29,4 +30,3 @@ elif operacao == 4:
         i =+ 1
 else:
     print("Algo de errado não está certo...")
-

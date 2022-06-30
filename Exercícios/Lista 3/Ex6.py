@@ -20,8 +20,6 @@ while True:
     else:
         break
 print(m)
-
-
 '''m = 0
 for i in range(x):
     n = int(input("Insira o valor de n: "))

@@ -9,6 +9,5 @@ for i in range (qe):
     print(vi)
     vi = vi+r
 
-
     
     

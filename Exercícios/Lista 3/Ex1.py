@@ -6,3 +6,4 @@ n = int(input("Insira o valor de N: "))
 for i in range(1, n + 1):
     print(i)
     i =+ 1
+
