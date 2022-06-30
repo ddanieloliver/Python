@@ -54,7 +54,5 @@ def desenhos():
 
   print( )
   def diagonaisDuplas(n):
-    for i in range(n, -1, -1):
-      print((n-i) * " ", i * "* " )   
-  diagonaisDuplas(6)
+    pass
 desenhos()
