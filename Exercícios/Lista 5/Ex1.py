@@ -13,7 +13,7 @@ s = str(input( 'insira a string que deseja inverter: '))
 inverte(s)
 '''
 
-def inverte(string):
+def inverter(string):
     return string[::-1]
 
-print(inverte('Russas'))
+print(inverter('Russas'))

@@ -24,9 +24,11 @@ for i in minha_lista :
 print (contador)
 
 deletar = minha_lista.index(76)
-del deletar
+
+del minha_lista[deletar]
+print(minha_lista)
 
 deletar4 = minha_lista.index(4)
 print(deletar4)
-del deletar4
+del minha_lista[deletar4]
 print(minha_lista)

@@ -13,14 +13,14 @@ s = str(input("Insira o string: "))
 def verificaVogais(letra):
     vogais = 'aeiou'
     if letra in vogais:
-        return True
+        return 1
     else:
-        return False
+        return 0
 def contaVogais(string):
     string = string.lower()
     contador = 0
     for i in string:
-        if verificaVogais(i) == True:
+        if verificaVogais(i) == 1:
             contador +=1
     print (contador)
 contaVogais(s)

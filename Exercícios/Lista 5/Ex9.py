@@ -4,4 +4,4 @@ numerosAleatorios(5,10,30) [13,29,23,13,21]'''
 
 
 def numerosAleatorios(n, min, max):
-    
+    pass
